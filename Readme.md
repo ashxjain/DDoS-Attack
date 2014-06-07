@@ -17,7 +17,7 @@ rest of the DDoS attack system. The handlers are software packages located throu
 
 	- The IRC-based DDoS attack architecture is similar to the Agent-Handler model except that instead of using a handler program installed on a network server, an IRC (Internet Relay Chat) communication channel is used to connect the client to the agents.
 
-* We are using the Agent-Handler model, where 
+* I used the Agent-Handler model, where 
 	- Client software used to communicate with the bots/agents - ssh, botMaker.c
 	- Agent Searching is done using - botSearcher.py
 	- Handler installed in compromised system - ssh
@@ -25,15 +25,15 @@ rest of the DDoS attack system. The handlers are software packages located throu
 
 * There are two main classes of DDoS attacks : bandwidth depletion and resource depletion attacks. 
 	* A bandwidth depletion attack is designed to flood the victim network with unwanted traffic that prevents legitimate traffic from reaching the primary victim. 
-		- In our project we will be demonstrating a UDP Flood Attack:
+		- In this project I will be demonstrating a UDP Flood Attack:
 			+ In a UDP Flood attack, a large number of UDP packets are sent to either random or specified ports on the victim system. The victim system tries to process the incoming data to determine which applications have requested data. If the victim system is not running any applications on the targeted port, it will send out an ICMP packet to the sending system indicating a "destination port unreachable" message
 
 	* A resource depletion attack is an attack that is designed to tie up the resources of a victim system making the victim unable to process legitimate requests for service.
-		- Protocol Exploit Attacks: We give two examples, one misusing the TCP SYN (Transfer Control Protocol Synchronize) protocol, and the other misusing the PUSH+ACK protocol.
+		- Protocol Exploit Attacks: Given two examples, one misusing the TCP SYN (Transfer Control Protocol Synchronize) protocol, and the other misusing the PUSH+ACK protocol.
 			+ In a DDoS TCP SYN attack, the attacker instructs the bots to send bogus TCP SYN requests to a victim server in order to tie up the server’s processor resources, and hence prevent the server from responding to legitimate requests. The TCP SYN attack exploits the three-way handshake between the sending system and the receiving system by sending large volumes of TCP SYN packets to the victim system with spoofed source IP addresses, so the victim system responds to a non-requesting system with the ACK+SYN. When a large volume of SYN requests are being processed by a server and none of the ACK+SYN responses are returned, the server eventually runs out of processor and memory resources, and is unable to respond to legitimate users.
 			+ In a PUSH + ACK attack, the attacking agents send TCP packets with the PUSH and ACK bits set to one. These triggers in the TCP packet header instruct the victim system to unload all data in the TCP buffer (regardless of whether or not the buffer is full) and send an acknowledgement when complete. If this process is repeated with multiple agents, the receiving system cannot process the large volume of incoming packets and the victim system will crash.
 
-* Because of time constraints, we have skipped the process of getting the password of the compromised systems, hence we assume that we have the username and password of the bots in the network and we also assume that all/most of the systems have same username and password.
+* Because of time constraints, I have skipped the process of getting the password of the compromised systems, hence i assumed that i have the username and password of the bots in the network and I have also assumed that all/most of the systems have same username and password.
 
 
 Prerequisites
@@ -52,8 +52,8 @@ Prerequisites
 				
 		Victim:
 		++++++ 
-			* Web-site hosted on victim’s computer to test DDoS attack. We have included a web-site in the folder named: "Website"
-			* This web-site can be used to test the attack. For our test, we used nginx web-server.
+			* Web-site hosted on victim’s computer to test DDoS attack. I have included a web-site in the folder named: "Website"
+			* This web-site can be used to test the attack. For this test, I used nginx web-server.
 
 
 Summary of Resources
