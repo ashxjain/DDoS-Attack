@@ -4,22 +4,12 @@ Distributed Denial of Service
 Computer Network Security-CS366
 ---------------------------------
 	- By, Ashish Jain
----------------------------------
+
 
 Overview
 --------
 
 * A Denial of Service (DoS) attack is an attack with the purpose of preventing legitimate users from using a specified network resource such as a website, web service, or computer system. A Distributed Denial of Service (DDoS) attack is a coordinated attack on the availability of services of a given target system or network that is launched indirectly through many compromised computing systems. The services under attack are those of the primary victim, while the compromised systems used to launch the attack are often called the secondary victims/bots. 
-* Following diagram shows a basic infrastructure of a DDoS attack network:
-							Command & Control Center
-					                   |        
-         __________________________________________________________
-		|               |                        |                 |
-Bot(Infected Host)  Bot(Infected Host)  Bot(Infected Host)  Bot(Infected Host)
-		|               |                        |                 |
-         __________________________________________________________
-                                       |
-							Victim (Attacked Target) 
 
 * Two types of DDoS attack networks have emerged: the Agent-Handler model and the Internet Relay Chat (IRC)-based model.
 	- The Agent-Handler model of a DDoS attack consists of clients, handlers, and agents. The client is where the attacker communicates with the
