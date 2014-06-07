@@ -5,13 +5,12 @@ Computer Network Security-CS366
 ---------------------------------
 	- By, Ashish Jain
 ---------------------------------
---------+
-Overview|
---------+
+
+Overview
+--------
 
 * A Denial of Service (DoS) attack is an attack with the purpose of preventing legitimate users from using a specified network resource such as a website, web service, or computer system. A Distributed Denial of Service (DDoS) attack is a coordinated attack on the availability of services of a given target system or network that is launched indirectly through many compromised computing systems. The services under attack are those of the primary victim, while the compromised systems used to launch the attack are often called the secondary victims/bots. 
 * Following diagram shows a basic infrastructure of a DDoS attack network:
-
 							Command & Control Center
 					                   |        
          __________________________________________________________
@@ -47,10 +46,8 @@ rest of the DDoS attack system. The handlers are software packages located throu
 * Because of time constraints, we have skipped the process of getting the password of the compromised systems, hence we assume that we have the username and password of the bots in the network and we also assume that all/most of the systems have same username and password.
 
 
--------------+
-Prerequisites|
--------------+
-
+Prerequisites
+-------------
         Command and Control Center:
         ++++++++++++++++++++++++++
 			- Softwares to be installed 
@@ -69,9 +66,8 @@ Prerequisites|
 			* This web-site can be used to test the attack. For our test, we used nginx web-server.
 
 
---------------------+
-Summary of Resources|
---------------------+
+Summary of Resources
+--------------------
 	[1] Distributed Denial of Service: Taxonomies of Attacks, Tools and Countermeasures: Stephen M. Specht, Ruby B. Lee
 		- To understand the basic terminologies and various forms of DDOS attacks
 	[2] DDoS Survival handbook, Radware, 2013
@@ -82,10 +78,8 @@ Summary of Resources|
 		- About DOS attacking tools
 
 
-------------------------+
-Implemented Case studies|
-------------------------+
-
+Implemented Case studies
+------------------------
 	Resource Depletion attacks:
 	+++++++++++++++++++++++++++        
 		1. TCP SYN flooding attack:
@@ -165,16 +159,13 @@ Implemented Case studies|
 				* Can ping to the victim and see the time difference after the attack
 
 
---------------------------+
-Take away from the project|
---------------------------+
-	DoS/DDoS attacks are the weapon of choice for cyber-hacktivist groups and are increasing in severity and complexity. This project, for demonstrating DDOS has helped us understand various attacks that takes place in real life. We've also learned that once a single system is compromised, one can easily launch an attack on the network. 
+Take away from the project
+--------------------------
+	DoS/DDoS attacks are the weapon of choice for cyber-hacktivist groups and are increasing in severity and complexity. This project, for demonstrating DDOS has helped us understand various attacks that takes place in real life. I have also learned that once a single system is compromised, one can easily launch an attack on the network. 
 
 
--------------------+
-Future Enhancements|
--------------------+
-
+Future Enhancements
+-------------------
 	1) Add more attacks:
 		* Smurf attack
 		* TCP URG attack
