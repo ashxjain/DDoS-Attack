@@ -1,0 +1,43 @@
+.fancyscroll-section {
+	position: absolute;
+	height: 1000px;
+	width: 100%;
+}
+
+.fancyscroll-content {
+	position: absolute;
+	width: 730px;
+	left: 50%;
+	margin-left: -345px;
+	top: 200px;
+	z-index: 10;
+}
+
+.fancyscroll-background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.fancyscroll-topButton {
+	position: fixed;
+	display: block;
+	bottom: 5px;
+	right: 5px;
+	padding: 10px;
+	color: #777;
+	background: #eee;
+	text-decoration: none;	
+	z-index: 20;
+}
+
+.fancyscroll-topButton:hover { 
+	color: #333;
+}
+
+
+
+
+

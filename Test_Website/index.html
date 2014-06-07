@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Mandya Clinic</title>
+
+<link rel="stylesheet" href="css/fancyscroll.css" media="screen" />
+<link rel="stylesheet" href="css/normalize.css" media="screen" />
+<link rel="stylesheet" href="css/foundation.css" media="screen" />
+<link rel="stylesheet" href="style.css" media="screen" />
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!--[if IE 7]>
+<link rel="stylesheet" href="css/font-awesome-ie7.min.css">
+<![endif]-->
+
+<script type="text/javascript"src="js/vendor/custom.modernizr.js"></script>
+<script type="text/javascript" src="js/fancyscroll.min.js"></script>
+    
+<script type="text/javascript">
+	window.onload = function(){
+		var f=new fancyScroll({easingTime:750});
+		//click handlers for IE < 8
+		f.addScroll(['home_link','about_link','team_link','contact_link','logo_link'],['home','about','team','contact','logo']);
+	};	
+</script>
+</head>
+<body>
+
+
+    
+	<div class="header">
+		<div class="large-12 columns">
+			<div class="row">
+            	<div id='logo' class="logo">
+					<a id='logo_link' href="#"><img alt="logo" src="images/logo.png"></a>
+                </div>
+
+                    <div class="nav">
+                        <ul>
+							<li><a id='home_link' href="#"><i class="icon-home"></i>Home</a></li>
+							<li><a id='about_link' href="#"><i class="icon-plus-sign-alt"></i>About Us</a></li>
+							<li><a id='team_link' href="#"><i class="icon-stethoscope"></i>Meet Team</a></li>
+							<li><a id='contact_link' href="#"><i class="icon-hospital"></i>Contact Us</a></li>
+                        </ul>
+                    </div> 
+			</div>
+		</div>
+	</div><!--End header-->
+
+
+	<div id='home' class="fancyscroll-section page-end" style="top:0px;">
+		<div id="page1-bg" offset="-400" class="fancyscroll-background">
+			<div class="row welcome large-12 columns">
+                <div class="large-7 columns">
+                   
+                </div>  <!--End large-7-->
+                                
+                <div class="large-5 columns">
+                    <!-- Begin Signup Form -->
+                        <div id="optin">
+                            <h2><i class="icon-envelope"></i>Online Appointment Form</h2>
+                                <form action="send_mail.php" method="post" class="custom" target="_blank">
+                                <input type="email" size="30" name="email" placeholder="Your e-mail" class="required email">
+                                <input type="text" size="30" name="name" placeholder="Your full name" class="name">
+                                <input type="text" size="30" name="phone" placeholder="Your phone number" class="name"> 
+                                <input type="text" size="30" name="age" placeholder="Your age" class="name">
+                                    <select id="customDropdown1" class="medium">
+                                        <option>Select branch</option>   
+                                        <option>Mandya Clinic</option>
+                                        <option>Mandya Polyclinic</option>
+                                    </select>
+                                <textarea placeholder="Please enter your Message..." name="message"></textarea>
+                                    <input type="submit" value="Make an appointment" name="subscribe" class="button">
+                                </form>
+                            </div>
+                </div> <!--End large-5-->      
+			</div>
+		</div>     
+	</div><!-- end #home -->
+
+	<div id='about' class="fancyscroll-section page-end" style="top:900px;">
+		<div id="page2-bg" offset="-400" class="fancyscroll-background">
+            <div class="panel">
+                <div class="row large-12 columns">
+                                <div class="hmessage">
+                                   <h1><i style="padding-right:10px;" class="icon-plus-sign-alt"></i>About US</h1>
+								<hr />
+								</div> 
+                                
+                               <div class="row"> 
+                                  <div class="large-5 columns">
+                                <!--<iframe src="http://player.vimeo.com/video/35043068?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="380" height="221" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>  -->
+                                	<img class="th radius" src="images/hospital.jpg" alt=""/>                     
+                                    </div>
+                                        
+                                    <div class="large-7 columns">
+                                        <p>In 2001, Dr. Devi Shetty, Chairman Narayana Health stepped in to make a difference to the Indian healthcare industry. He put into place a dream hospital project called Narayana Hrudayalaya that started modestly with 300 beds in Bangalore and went on to become a Health City. In a decade's time it grew exponentially with multiple location presence, recording a 5700 beds healthcare conglomerate by end 2012. From truly humble beginnings, the hospital currently caters to 80,000 patients per month and performs 3500 surgeries. It is one man's passion that ignited this spark.</p>
+                                        <p>Besides Bangalore Narayana Health has hospitals in Hubli, Dharwad, Kolar, Hyderabad, Kolkata, Jamshedpur, Raipur, Jaipur and Ahmedabad in addition to international subsidiaries in Malaysia and Cayman Islands. Narayana Institute of Cardiac Sciences, Bangalore and Narayana Multispeciality Hospital, Jaipur are JCI accredited.Narayana Institute of Cardiac Sciences, Bangalore and Narayana Multispeciality Hospital, Jaipur are JCI accredited.</p>                                     					
+                                     </div>
+                                </div>    
+                                <br/>  
+                                <br/>
+   
+                </div>
+            </div>
+		</div>
+	</div><!-- end #about -->
+    
+
+	<div id='team' class="fancyscroll-section page-end" style="top:1800px;">
+		<div id="page3-bg" offset="-400" class="fancyscroll-background">
+				<div class="panel">
+				<div class="row">
+                    <div class="hmessage">
+                        <h1><i style="padding-right:10px;" class="icon-user-md"></i>Meet Our Doctor</h1>
+                    </div>   
+					<hr />
+                    <div class="large-4 columns homeboxes">
+                        
+                    </div>
+                    <div class="large-4 columns homeboxes">
+                        <ul class="ch-grid">
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <h3>Dental Clinic</h3>
+                                        <p>Dr. Lalit Mehta</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>                    
+                        <h4>Dr. Lait Mehta</h4>
+                        <p>The universe is big, its vast and complicated, and ridiculous. And sometimes, very rarely, impossible things just happen and we call them miracles. And that's the theory. Nine hundred years, never seen one yet, but this would do me</p>
+                    </div>
+                    <div class="large-4 columns homeboxes">
+                       
+                    </div>
+                </div>
+            </div>  <!--End services-->
+		</div>
+	</div><!-- end #team -->
+
+	<div id='contact' class="fancyscroll-section page-end" style="top:2700px;">
+           <div class="panel">
+				<div class="hmessage">
+                	<h1><i style="padding-right:10px;" class="icon-edit"></i>Our Contact Details</h1>
+                </div>  
+				<hr />
+				<div style="margin-top:50px;" class="row">
+ 					<div class="large-6 columns">
+						<h2 style="margin-bottom:20px;"><i class="icon-envelope"></i>Contact Form</h2>
+                                <form action="#" method="post" class="custom" target="_blank">
+                                <input type="email" size="30" placeholder="Your e-mail" class="required email">
+                                <input type="text" size="30" placeholder="Your full name" class="name">
+                                <input type="text" size="30" placeholder="Your phone number" class="name">             
+                                <textarea placeholder="Please enter your Message..." name="message"></textarea>
+                                    <input type="submit" value="Get In Touch" name="subscribe" class="button">
+                                </form>
+                    </div> 
+                    
+                     <div class="large-6 columns contact-details">
+							 <ul id="address">
+							 	<li><i class="icon-hospital"></i>Mandya Clinic</li>
+                                <li><i class="icon-bell-alt"></i>(8:00 – 14:00)</li>
+                                <li><i class="icon-mobile-phone"></i>+91-8022263924</li>
+                                <li><i class="icon-home"></i>Kilari Road, Chikpete, Bangalore 560053</li>
+                                <hr/>
+                              	<li><i class="icon-hospital"></i>Mandya Polyclinic</li>
+                                <li><i class="icon-bell-alt"></i>(8:00 – 14:00)</li>
+                                <li><i class="icon-mobile-phone"></i>+91-8026601947</li>
+                                <li><i class="icon-home"></i>Kubera Mansion, VV Puram, Bangalore 560004</li>
+                                <hr/>                                
+                                <li><i class="icon-envelope"></i><a href="Mandya_Clinic@gmail.com">Mandya_Clinic@gmail.com</a></li>
+                            </ul>
+                        </div>
+                    </div>  
+                    
+ <!-- Footer -->
+ 
+            <footer class="row">
+                <div class="large-12 columns">
+                <hr />
+                <div class="row">
+                    <div class="large-5 columns" style="margin-top:20px;">
+                    <p>&copy;Copyright 2014 Mandya Clinic.</p>
+                    </div>
+                </div>
+            </footer> 
+                     
+ 			</div>
+		</div>
+
+ 
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  
+</body>
+</html>
